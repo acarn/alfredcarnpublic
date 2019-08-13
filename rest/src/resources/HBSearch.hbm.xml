@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+  
+<hibernate-mapping>  
+  <class name="ca.alfredcarn.rest.mvc.services.books.bookResults.imp.readDatabase.hibernate.HBSearch" table="BOOKS_SEARCHES">  
+    <id name="SEARCH_ID" type="int" column="SEARCH_ID">  
+      <!-- <generator class="assigned"></generator> -->
+      <generator class="native"></generator>
+    </id>
+    <property name="TEXT" type="string" column="TEXT"></property>
+    <property name="PAGE" type="int" column="PAGE"></property>
+  </class>
+</hibernate-mapping>

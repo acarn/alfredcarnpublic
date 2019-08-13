@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="ca.alfredcarn.rest.mvc.services.books.bookResults.imp.readDatabase.mybatis.MBMapper">
+  
+  <select id="selectSearches" parameterType="int" resultMap="searchMap">
+  	select * from BOOKS_SEARCHES where SEARCH_ID = #{SEARCH_ID}
+  </select>
+  
+  <select id="selectResults" parameterType="int" resultType="ca.alfredcarn.rest.mvc.services.books.bookResults.imp.readDatabase.mybatis.MBResult" >
+    select * from BOOKS_RESULTS where SEARCH_ID = #{SEARCH_ID} ORDER BY RESULT_ID
+  </select>
+  
+  <resultMap id="searchMap" type="ca.alfredcarn.rest.mvc.services.books.bookResults.imp.readDatabase.mybatis.MBSearch">
+  	<collection property="results" javaType="ArrayList" column="SEARCH_ID" ofType="ca.alfredcarn.rest.mvc.services.books.bookResults.imp.readDatabase.mybatis.MBResult" select="selectResults" />
+  </resultMap>
+  
+</mapper>

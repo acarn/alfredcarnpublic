@@ -1,0 +1,231 @@
+2019-08-12 15:37:13 ERROR ApplicationLogger:43 - Can this exception be logged?
+java.lang.Exception: Dummy Exception
+	at ca.alfredcarn.web.mvc.services.books.BooksSearchHtmlService.<init>(BooksSearchHtmlService.java:20)
+	at ca.alfredcarn.web.mvc.services.books.BooksController.booksSearch(BooksController.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:215)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:132)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:749)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:689)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:83)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:938)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:870)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:852)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-12 15:37:31 DEBUG DefaultListableBeanFactory:1595 - Invoking afterPropertiesSet() on bean with name 'books'
+2019-08-12 15:37:31 DEBUG DispatcherServlet:1218 - Rendering view [org.springframework.web.servlet.view.JstlView: name 'books'; URL [/WEB-INF/views/books.jsp]] in DispatcherServlet with name 'dispatcher'
+2019-08-12 15:37:31 DEBUG JstlView:377 - Added model object 'titleOrAuthor' of type [java.lang.String] to request in view with name 'books'
+2019-08-12 15:37:31 DEBUG JstlView:377 - Added model object 'page' of type [java.lang.String] to request in view with name 'books'
+2019-08-12 15:37:31 DEBUG JstlView:377 - Added model object 'webRoot' of type [java.lang.String] to request in view with name 'books'
+2019-08-12 15:37:31 DEBUG JstlView:377 - Added model object 'bookResults' of type [java.util.ArrayList] to request in view with name 'books'
+2019-08-12 15:37:31 DEBUG JstlView:377 - Added model object 'size' of type [java.lang.String] to request in view with name 'books'
+2019-08-12 15:37:31 DEBUG JstlView:377 - Added model object 'pageOneBased' of type [java.lang.String] to request in view with name 'books'
+2019-08-12 15:37:31 DEBUG JstlView:377 - Added model object 'time' of type [java.lang.Long] to request in view with name 'books'
+2019-08-12 15:37:31 DEBUG JstlView:207 - Forwarding to resource [/WEB-INF/views/books.jsp] in InternalResourceView 'books'
+2019-08-12 15:37:31 DEBUG DispatcherServlet:991 - Successfully completed request
+2019-08-12 15:37:31 DEBUG DispatcherServlet:838 - DispatcherServlet with name 'dispatcher' processing GET request for [/web/resources/index/css/index.css]
+2019-08-12 15:37:31 DEBUG RequestMappingHandlerMapping:246 - Looking up handler method for path /resources/index/css/index.css
+2019-08-12 15:37:31 DEBUG DispatcherServlet:838 - DispatcherServlet with name 'dispatcher' processing GET request for [/web/resources/books/js/books.js]
+2019-08-12 15:37:31 DEBUG RequestMappingHandlerMapping:246 - Looking up handler method for path /resources/books/js/books.js
+2019-08-12 15:37:31 DEBUG RequestMappingHandlerMapping:254 - Did not find handler method for [/resources/index/css/index.css]
+2019-08-12 15:37:31 DEBUG RequestMappingHandlerMapping:254 - Did not find handler method for [/resources/books/js/books.js]
+2019-08-12 15:37:31 DEBUG SimpleUrlHandlerMapping:169 - Matching patterns for request [/resources/index/css/index.css] are [/resources/**]
+2019-08-12 15:37:31 DEBUG SimpleUrlHandlerMapping:169 - Matching patterns for request [/resources/books/js/books.js] are [/resources/**]
+2019-08-12 15:37:31 DEBUG SimpleUrlHandlerMapping:194 - URI Template variables for request [/resources/index/css/index.css] are {}
+2019-08-12 15:37:31 DEBUG SimpleUrlHandlerMapping:194 - URI Template variables for request [/resources/books/js/books.js] are {}
+2019-08-12 15:37:31 DEBUG SimpleUrlHandlerMapping:124 - Mapping [/resources/books/js/books.js] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@5d1163b2] and 1 interceptor
+2019-08-12 15:37:31 DEBUG SimpleUrlHandlerMapping:124 - Mapping [/resources/index/css/index.css] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@5d1163b2] and 1 interceptor
+2019-08-12 15:37:31 DEBUG DispatcherServlet:925 - Last-Modified value for [/web/resources/books/js/books.js] is: -1
+2019-08-12 15:37:31 DEBUG DispatcherServlet:925 - Last-Modified value for [/web/resources/index/css/index.css] is: -1
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:175 - Trying relative path [books/js/books.js] against base location: ServletContext resource [/resources/]
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:175 - Trying relative path [index/css/index.css] against base location: ServletContext resource [/resources/]
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:180 - Found matching resource: ServletContext resource [/resources/index/css/index.css]
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:180 - Found matching resource: ServletContext resource [/resources/books/js/books.js]
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:134 - Determined media type 'text/css' for ServletContext resource [/resources/index/css/index.css]
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:134 - Determined media type 'application/javascript' for ServletContext resource [/resources/books/js/books.js]
+2019-08-12 15:37:31 DEBUG DispatcherServlet:1012 - Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
+2019-08-12 15:37:31 DEBUG DispatcherServlet:991 - Successfully completed request
+2019-08-12 15:37:31 DEBUG DispatcherServlet:1012 - Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
+2019-08-12 15:37:31 DEBUG DispatcherServlet:991 - Successfully completed request
+2019-08-12 15:37:31 DEBUG DispatcherServlet:838 - DispatcherServlet with name 'dispatcher' processing GET request for [/web/resources/books/css/books.css]
+2019-08-12 15:37:31 DEBUG RequestMappingHandlerMapping:246 - Looking up handler method for path /resources/books/css/books.css
+2019-08-12 15:37:31 DEBUG DispatcherServlet:838 - DispatcherServlet with name 'dispatcher' processing GET request for [/web/resources/books/js/search.js]
+2019-08-12 15:37:31 DEBUG RequestMappingHandlerMapping:246 - Looking up handler method for path /resources/books/js/search.js
+2019-08-12 15:37:31 DEBUG RequestMappingHandlerMapping:254 - Did not find handler method for [/resources/books/css/books.css]
+2019-08-12 15:37:31 DEBUG RequestMappingHandlerMapping:254 - Did not find handler method for [/resources/books/js/search.js]
+2019-08-12 15:37:31 DEBUG SimpleUrlHandlerMapping:169 - Matching patterns for request [/resources/books/css/books.css] are [/resources/**]
+2019-08-12 15:37:31 DEBUG SimpleUrlHandlerMapping:169 - Matching patterns for request [/resources/books/js/search.js] are [/resources/**]
+2019-08-12 15:37:31 DEBUG SimpleUrlHandlerMapping:194 - URI Template variables for request [/resources/books/css/books.css] are {}
+2019-08-12 15:37:31 DEBUG SimpleUrlHandlerMapping:194 - URI Template variables for request [/resources/books/js/search.js] are {}
+2019-08-12 15:37:31 DEBUG SimpleUrlHandlerMapping:124 - Mapping [/resources/books/css/books.css] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@5d1163b2] and 1 interceptor
+2019-08-12 15:37:31 DEBUG SimpleUrlHandlerMapping:124 - Mapping [/resources/books/js/search.js] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@5d1163b2] and 1 interceptor
+2019-08-12 15:37:31 DEBUG DispatcherServlet:925 - Last-Modified value for [/web/resources/books/css/books.css] is: -1
+2019-08-12 15:37:31 DEBUG DispatcherServlet:925 - Last-Modified value for [/web/resources/books/js/search.js] is: -1
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:175 - Trying relative path [books/js/search.js] against base location: ServletContext resource [/resources/]
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:175 - Trying relative path [books/css/books.css] against base location: ServletContext resource [/resources/]
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:180 - Found matching resource: ServletContext resource [/resources/books/js/search.js]
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:134 - Determined media type 'application/javascript' for ServletContext resource [/resources/books/js/search.js]
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:180 - Found matching resource: ServletContext resource [/resources/books/css/books.css]
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:134 - Determined media type 'text/css' for ServletContext resource [/resources/books/css/books.css]
+2019-08-12 15:37:31 DEBUG DispatcherServlet:1012 - Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
+2019-08-12 15:37:31 DEBUG DispatcherServlet:991 - Successfully completed request
+2019-08-12 15:37:31 DEBUG DispatcherServlet:1012 - Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
+2019-08-12 15:37:31 DEBUG DispatcherServlet:991 - Successfully completed request
+2019-08-12 15:37:31 DEBUG DispatcherServlet:838 - DispatcherServlet with name 'dispatcher' processing GET request for [/web/resources/books/js/explanation.js]
+2019-08-12 15:37:31 DEBUG RequestMappingHandlerMapping:246 - Looking up handler method for path /resources/books/js/explanation.js
+2019-08-12 15:37:31 DEBUG RequestMappingHandlerMapping:254 - Did not find handler method for [/resources/books/js/explanation.js]
+2019-08-12 15:37:31 DEBUG SimpleUrlHandlerMapping:169 - Matching patterns for request [/resources/books/js/explanation.js] are [/resources/**]
+2019-08-12 15:37:31 DEBUG SimpleUrlHandlerMapping:194 - URI Template variables for request [/resources/books/js/explanation.js] are {}
+2019-08-12 15:37:31 DEBUG SimpleUrlHandlerMapping:124 - Mapping [/resources/books/js/explanation.js] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@5d1163b2] and 1 interceptor
+2019-08-12 15:37:31 DEBUG DispatcherServlet:925 - Last-Modified value for [/web/resources/books/js/explanation.js] is: -1
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:175 - Trying relative path [books/js/explanation.js] against base location: ServletContext resource [/resources/]
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:180 - Found matching resource: ServletContext resource [/resources/books/js/explanation.js]
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:134 - Determined media type 'application/javascript' for ServletContext resource [/resources/books/js/explanation.js]
+2019-08-12 15:37:31 DEBUG DispatcherServlet:1012 - Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
+2019-08-12 15:37:31 DEBUG DispatcherServlet:991 - Successfully completed request
+2019-08-12 15:37:31 DEBUG DispatcherServlet:838 - DispatcherServlet with name 'dispatcher' processing GET request for [/web/resources/index/img/textBox/textBoxRight.jpg]
+2019-08-12 15:37:31 DEBUG DispatcherServlet:838 - DispatcherServlet with name 'dispatcher' processing GET request for [/web/resources/index/img/textBox/textBoxLeft.jpg]
+2019-08-12 15:37:31 DEBUG RequestMappingHandlerMapping:246 - Looking up handler method for path /resources/index/img/textBox/textBoxRight.jpg
+2019-08-12 15:37:31 DEBUG RequestMappingHandlerMapping:246 - Looking up handler method for path /resources/index/img/textBox/textBoxLeft.jpg
+2019-08-12 15:37:31 DEBUG RequestMappingHandlerMapping:254 - Did not find handler method for [/resources/index/img/textBox/textBoxRight.jpg]
+2019-08-12 15:37:31 DEBUG RequestMappingHandlerMapping:254 - Did not find handler method for [/resources/index/img/textBox/textBoxLeft.jpg]
+2019-08-12 15:37:31 DEBUG SimpleUrlHandlerMapping:169 - Matching patterns for request [/resources/index/img/textBox/textBoxRight.jpg] are [/resources/**]
+2019-08-12 15:37:31 DEBUG SimpleUrlHandlerMapping:194 - URI Template variables for request [/resources/index/img/textBox/textBoxRight.jpg] are {}
+2019-08-12 15:37:31 DEBUG SimpleUrlHandlerMapping:124 - Mapping [/resources/index/img/textBox/textBoxRight.jpg] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@5d1163b2] and 1 interceptor
+2019-08-12 15:37:31 DEBUG SimpleUrlHandlerMapping:169 - Matching patterns for request [/resources/index/img/textBox/textBoxLeft.jpg] are [/resources/**]
+2019-08-12 15:37:31 DEBUG SimpleUrlHandlerMapping:194 - URI Template variables for request [/resources/index/img/textBox/textBoxLeft.jpg] are {}
+2019-08-12 15:37:31 DEBUG DispatcherServlet:925 - Last-Modified value for [/web/resources/index/img/textBox/textBoxRight.jpg] is: -1
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:175 - Trying relative path [index/img/textBox/textBoxRight.jpg] against base location: ServletContext resource [/resources/]
+2019-08-12 15:37:31 DEBUG SimpleUrlHandlerMapping:124 - Mapping [/resources/index/img/textBox/textBoxLeft.jpg] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@5d1163b2] and 1 interceptor
+2019-08-12 15:37:31 DEBUG DispatcherServlet:925 - Last-Modified value for [/web/resources/index/img/textBox/textBoxLeft.jpg] is: -1
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:180 - Found matching resource: ServletContext resource [/resources/index/img/textBox/textBoxRight.jpg]
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:175 - Trying relative path [index/img/textBox/textBoxLeft.jpg] against base location: ServletContext resource [/resources/]
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:134 - Determined media type 'image/jpeg' for ServletContext resource [/resources/index/img/textBox/textBoxRight.jpg]
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:180 - Found matching resource: ServletContext resource [/resources/index/img/textBox/textBoxLeft.jpg]
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:134 - Determined media type 'image/jpeg' for ServletContext resource [/resources/index/img/textBox/textBoxLeft.jpg]
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:145 - Resource not modified - returning 304
+2019-08-12 15:37:31 DEBUG DispatcherServlet:1012 - Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
+2019-08-12 15:37:31 DEBUG DispatcherServlet:991 - Successfully completed request
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:145 - Resource not modified - returning 304
+2019-08-12 15:37:31 DEBUG DispatcherServlet:1012 - Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
+2019-08-12 15:37:31 DEBUG DispatcherServlet:991 - Successfully completed request
+2019-08-12 15:37:31 DEBUG DispatcherServlet:838 - DispatcherServlet with name 'dispatcher' processing GET request for [/web/resources/books/img/about/linkedIn.png]
+2019-08-12 15:37:31 DEBUG RequestMappingHandlerMapping:246 - Looking up handler method for path /resources/books/img/about/linkedIn.png
+2019-08-12 15:37:31 DEBUG RequestMappingHandlerMapping:254 - Did not find handler method for [/resources/books/img/about/linkedIn.png]
+2019-08-12 15:37:31 DEBUG SimpleUrlHandlerMapping:169 - Matching patterns for request [/resources/books/img/about/linkedIn.png] are [/resources/**]
+2019-08-12 15:37:31 DEBUG SimpleUrlHandlerMapping:194 - URI Template variables for request [/resources/books/img/about/linkedIn.png] are {}
+2019-08-12 15:37:31 DEBUG SimpleUrlHandlerMapping:124 - Mapping [/resources/books/img/about/linkedIn.png] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@5d1163b2] and 1 interceptor
+2019-08-12 15:37:31 DEBUG DispatcherServlet:925 - Last-Modified value for [/web/resources/books/img/about/linkedIn.png] is: -1
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:175 - Trying relative path [books/img/about/linkedIn.png] against base location: ServletContext resource [/resources/]
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:180 - Found matching resource: ServletContext resource [/resources/books/img/about/linkedIn.png]
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:134 - Determined media type 'image/png' for ServletContext resource [/resources/books/img/about/linkedIn.png]
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:145 - Resource not modified - returning 304
+2019-08-12 15:37:31 DEBUG DispatcherServlet:1012 - Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
+2019-08-12 15:37:31 DEBUG DispatcherServlet:991 - Successfully completed request
+2019-08-12 15:37:31 DEBUG DispatcherServlet:838 - DispatcherServlet with name 'dispatcher' processing GET request for [/web/resources/index/img/menu/menu.png]
+2019-08-12 15:37:31 DEBUG RequestMappingHandlerMapping:246 - Looking up handler method for path /resources/index/img/menu/menu.png
+2019-08-12 15:37:31 DEBUG RequestMappingHandlerMapping:254 - Did not find handler method for [/resources/index/img/menu/menu.png]
+2019-08-12 15:37:31 DEBUG SimpleUrlHandlerMapping:169 - Matching patterns for request [/resources/index/img/menu/menu.png] are [/resources/**]
+2019-08-12 15:37:31 DEBUG DispatcherServlet:838 - DispatcherServlet with name 'dispatcher' processing GET request for [/web/resources/index/img/menu/dividerHorizontal.png]
+2019-08-12 15:37:31 DEBUG SimpleUrlHandlerMapping:194 - URI Template variables for request [/resources/index/img/menu/menu.png] are {}
+2019-08-12 15:37:31 DEBUG RequestMappingHandlerMapping:246 - Looking up handler method for path /resources/index/img/menu/dividerHorizontal.png
+2019-08-12 15:37:31 DEBUG SimpleUrlHandlerMapping:124 - Mapping [/resources/index/img/menu/menu.png] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@5d1163b2] and 1 interceptor
+2019-08-12 15:37:31 DEBUG DispatcherServlet:925 - Last-Modified value for [/web/resources/index/img/menu/menu.png] is: -1
+2019-08-12 15:37:31 DEBUG RequestMappingHandlerMapping:254 - Did not find handler method for [/resources/index/img/menu/dividerHorizontal.png]
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:175 - Trying relative path [index/img/menu/menu.png] against base location: ServletContext resource [/resources/]
+2019-08-12 15:37:31 DEBUG SimpleUrlHandlerMapping:169 - Matching patterns for request [/resources/index/img/menu/dividerHorizontal.png] are [/resources/**]
+2019-08-12 15:37:31 DEBUG SimpleUrlHandlerMapping:194 - URI Template variables for request [/resources/index/img/menu/dividerHorizontal.png] are {}
+2019-08-12 15:37:31 DEBUG SimpleUrlHandlerMapping:124 - Mapping [/resources/index/img/menu/dividerHorizontal.png] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@5d1163b2] and 1 interceptor
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:180 - Found matching resource: ServletContext resource [/resources/index/img/menu/menu.png]
+2019-08-12 15:37:31 DEBUG DispatcherServlet:925 - Last-Modified value for [/web/resources/index/img/menu/dividerHorizontal.png] is: -1
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:134 - Determined media type 'image/png' for ServletContext resource [/resources/index/img/menu/menu.png]
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:175 - Trying relative path [index/img/menu/dividerHorizontal.png] against base location: ServletContext resource [/resources/]
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:180 - Found matching resource: ServletContext resource [/resources/index/img/menu/dividerHorizontal.png]
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:145 - Resource not modified - returning 304
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:134 - Determined media type 'image/png' for ServletContext resource [/resources/index/img/menu/dividerHorizontal.png]
+2019-08-12 15:37:31 DEBUG DispatcherServlet:1012 - Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
+2019-08-12 15:37:31 DEBUG DispatcherServlet:991 - Successfully completed request
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:145 - Resource not modified - returning 304
+2019-08-12 15:37:31 DEBUG DispatcherServlet:1012 - Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
+2019-08-12 15:37:31 DEBUG DispatcherServlet:991 - Successfully completed request
+2019-08-12 15:37:31 DEBUG DispatcherServlet:838 - DispatcherServlet with name 'dispatcher' processing GET request for [/web/resources/index/img/logo/logo.jpg]
+2019-08-12 15:37:31 DEBUG RequestMappingHandlerMapping:246 - Looking up handler method for path /resources/index/img/logo/logo.jpg
+2019-08-12 15:37:31 DEBUG RequestMappingHandlerMapping:254 - Did not find handler method for [/resources/index/img/logo/logo.jpg]
+2019-08-12 15:37:31 DEBUG DispatcherServlet:838 - DispatcherServlet with name 'dispatcher' processing GET request for [/web/resources/index/img/magnifyingGlass/magnifyingGlass.png]
+2019-08-12 15:37:31 DEBUG SimpleUrlHandlerMapping:169 - Matching patterns for request [/resources/index/img/logo/logo.jpg] are [/resources/**]
+2019-08-12 15:37:31 DEBUG RequestMappingHandlerMapping:246 - Looking up handler method for path /resources/index/img/magnifyingGlass/magnifyingGlass.png
+2019-08-12 15:37:31 DEBUG RequestMappingHandlerMapping:254 - Did not find handler method for [/resources/index/img/magnifyingGlass/magnifyingGlass.png]
+2019-08-12 15:37:31 DEBUG SimpleUrlHandlerMapping:169 - Matching patterns for request [/resources/index/img/magnifyingGlass/magnifyingGlass.png] are [/resources/**]
+2019-08-12 15:37:31 DEBUG SimpleUrlHandlerMapping:194 - URI Template variables for request [/resources/index/img/magnifyingGlass/magnifyingGlass.png] are {}
+2019-08-12 15:37:31 DEBUG SimpleUrlHandlerMapping:124 - Mapping [/resources/index/img/magnifyingGlass/magnifyingGlass.png] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@5d1163b2] and 1 interceptor
+2019-08-12 15:37:31 DEBUG DispatcherServlet:925 - Last-Modified value for [/web/resources/index/img/magnifyingGlass/magnifyingGlass.png] is: -1
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:175 - Trying relative path [index/img/magnifyingGlass/magnifyingGlass.png] against base location: ServletContext resource [/resources/]
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:180 - Found matching resource: ServletContext resource [/resources/index/img/magnifyingGlass/magnifyingGlass.png]
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:134 - Determined media type 'image/png' for ServletContext resource [/resources/index/img/magnifyingGlass/magnifyingGlass.png]
+2019-08-12 15:37:31 DEBUG SimpleUrlHandlerMapping:194 - URI Template variables for request [/resources/index/img/logo/logo.jpg] are {}
+2019-08-12 15:37:31 DEBUG SimpleUrlHandlerMapping:124 - Mapping [/resources/index/img/logo/logo.jpg] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@5d1163b2] and 1 interceptor
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:145 - Resource not modified - returning 304
+2019-08-12 15:37:31 DEBUG DispatcherServlet:925 - Last-Modified value for [/web/resources/index/img/logo/logo.jpg] is: -1
+2019-08-12 15:37:31 DEBUG DispatcherServlet:1012 - Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:175 - Trying relative path [index/img/logo/logo.jpg] against base location: ServletContext resource [/resources/]
+2019-08-12 15:37:31 DEBUG DispatcherServlet:991 - Successfully completed request
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:180 - Found matching resource: ServletContext resource [/resources/index/img/logo/logo.jpg]
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:134 - Determined media type 'image/jpeg' for ServletContext resource [/resources/index/img/logo/logo.jpg]
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:145 - Resource not modified - returning 304
+2019-08-12 15:37:31 DEBUG DispatcherServlet:1012 - Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
+2019-08-12 15:37:31 DEBUG DispatcherServlet:991 - Successfully completed request
+2019-08-12 15:37:31 DEBUG DispatcherServlet:838 - DispatcherServlet with name 'dispatcher' processing GET request for [/web/resources/books/img/about/gitHub.png]
+2019-08-12 15:37:31 DEBUG RequestMappingHandlerMapping:246 - Looking up handler method for path /resources/books/img/about/gitHub.png
+2019-08-12 15:37:31 DEBUG RequestMappingHandlerMapping:254 - Did not find handler method for [/resources/books/img/about/gitHub.png]
+2019-08-12 15:37:31 DEBUG SimpleUrlHandlerMapping:169 - Matching patterns for request [/resources/books/img/about/gitHub.png] are [/resources/**]
+2019-08-12 15:37:31 DEBUG SimpleUrlHandlerMapping:194 - URI Template variables for request [/resources/books/img/about/gitHub.png] are {}
+2019-08-12 15:37:31 DEBUG SimpleUrlHandlerMapping:124 - Mapping [/resources/books/img/about/gitHub.png] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@5d1163b2] and 1 interceptor
+2019-08-12 15:37:31 DEBUG DispatcherServlet:925 - Last-Modified value for [/web/resources/books/img/about/gitHub.png] is: -1
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:175 - Trying relative path [books/img/about/gitHub.png] against base location: ServletContext resource [/resources/]
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:180 - Found matching resource: ServletContext resource [/resources/books/img/about/gitHub.png]
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:134 - Determined media type 'image/png' for ServletContext resource [/resources/books/img/about/gitHub.png]
+2019-08-12 15:37:31 DEBUG DispatcherServlet:838 - DispatcherServlet with name 'dispatcher' processing GET request for [/web/resources/index/img/textBox/textBoxMiddle.jpg]
+2019-08-12 15:37:31 DEBUG RequestMappingHandlerMapping:246 - Looking up handler method for path /resources/index/img/textBox/textBoxMiddle.jpg
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:145 - Resource not modified - returning 304
+2019-08-12 15:37:31 DEBUG DispatcherServlet:1012 - Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
+2019-08-12 15:37:31 DEBUG DispatcherServlet:991 - Successfully completed request
+2019-08-12 15:37:31 DEBUG RequestMappingHandlerMapping:254 - Did not find handler method for [/resources/index/img/textBox/textBoxMiddle.jpg]
+2019-08-12 15:37:31 DEBUG SimpleUrlHandlerMapping:169 - Matching patterns for request [/resources/index/img/textBox/textBoxMiddle.jpg] are [/resources/**]
+2019-08-12 15:37:31 DEBUG SimpleUrlHandlerMapping:194 - URI Template variables for request [/resources/index/img/textBox/textBoxMiddle.jpg] are {}
+2019-08-12 15:37:31 DEBUG SimpleUrlHandlerMapping:124 - Mapping [/resources/index/img/textBox/textBoxMiddle.jpg] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@5d1163b2] and 1 interceptor
+2019-08-12 15:37:31 DEBUG DispatcherServlet:925 - Last-Modified value for [/web/resources/index/img/textBox/textBoxMiddle.jpg] is: -1
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:175 - Trying relative path [index/img/textBox/textBoxMiddle.jpg] against base location: ServletContext resource [/resources/]
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:180 - Found matching resource: ServletContext resource [/resources/index/img/textBox/textBoxMiddle.jpg]
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:134 - Determined media type 'image/jpeg' for ServletContext resource [/resources/index/img/textBox/textBoxMiddle.jpg]
+2019-08-12 15:37:31 DEBUG ResourceHttpRequestHandler:145 - Resource not modified - returning 304
+2019-08-12 15:37:31 DEBUG DispatcherServlet:1012 - Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
+2019-08-12 15:37:31 DEBUG DispatcherServlet:991 - Successfully completed request

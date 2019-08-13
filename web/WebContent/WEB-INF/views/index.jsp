@@ -1,0 +1,1 @@
+<script>window.location = "../books/search/music/0";</script>
