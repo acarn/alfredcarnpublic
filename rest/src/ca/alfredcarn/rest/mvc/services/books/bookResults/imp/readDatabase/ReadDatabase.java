@@ -8,6 +8,7 @@ import ca.alfredcarn.rest.mvc.services.books.bookResults.imp.readDatabase.hibern
 import ca.alfredcarn.rest.mvc.services.books.bookResults.imp.readDatabase.mybatis.MBResult;
 import ca.alfredcarn.rest.mvc.services.books.bookResults.imp.readDatabase.mybatis.ReadResults;
 
+// This class demonstrates the use of Hibernate and MyBatis libraries for two different database SELECT statements.
 public class ReadDatabase {
 	private ReadDatabase() {}
 	static public List<HBSearch> readSearches(String titleOrAuthor, int page) { return ReadSearches.getInstance().read(titleOrAuthor, page); }

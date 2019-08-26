@@ -10,6 +10,7 @@ import ca.alfredcarn.jot.data.database.Transaction;
 import ca.alfredcarn.jot.data.database.insert.Insert;
 import ca.alfredcarn.gen.ApplicationProperties;
 
+// This class demonstrates the use of the Jot library for INSERT statements and connection pooling.
 public class WriteDatabase {
 	
 	private static Database db = Jot.createDatabase();
