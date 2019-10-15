@@ -19,7 +19,7 @@ public class ConnectionPool<Connection> extends AbstractPool<Connection> {
 	@SuppressWarnings("unchecked")
 	private Connection createImp() {
 		Connection r = null;
-		if( loadDriver() )/*This commit is from Test Branch*/{
+		if( loadDriver() ){
 			try {
 				java.sql.Connection raw = createSqlConnection();
 				if( null!=raw ) { r = (Connection)new ConnectionImp(raw); }
