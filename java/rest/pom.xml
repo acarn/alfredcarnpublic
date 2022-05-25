@@ -50,7 +50,7 @@
     </resources>
   </build>
   <properties>
-  	<springframework.version>4.3.0.RELEASE</springframework.version>
+  	<springframework.version>5.2.22.RELEASE</springframework.version>
     <jackson.version>2.7.5</jackson.version>
   </properties>
   <dependencies>
